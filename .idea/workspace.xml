@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9c6a5eb0-0274-4cac-8ee0-55a02cc0f697" name="Default Changelist" comment="Updated jestconfig.json to ignore dist instead of build." />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="tsconfig.json" />
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1kSbW3nsA4ZzbfCPCDPGds3bzwJ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="15.2.1" />
+    <property name="javascript.nodejs.core.library.typings.version" value="14.14.8" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/jest" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Jest.Tests">
+    <configuration name="Tests" type="JavaScriptTestRunnerJest">
+      <config-file value="$PROJECT_DIR$/jestconfig.json" />
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest">
+      <config-file value="$PROJECT_DIR$/jestconfig.json" />
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method v="2" />
+    </configuration>
+    <configuration name="renoFinder.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="build/renoFinder.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Jest.Tests" />
+      <item itemvalue="Node.js.renoFinder.js" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9c6a5eb0-0274-4cac-8ee0-55a02cc0f697" name="Default Changelist" comment="" />
+      <created>1605696968312</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1605696968312</updated>
+      <workItem from="1605696969488" duration="50644000" />
+      <workItem from="1606490211739" duration="4707000" />
+      <workItem from="1606650693382" duration="9000" />
+    </task>
+    <task id="LOCAL-00001" summary="Added tsconfig.json">
+      <created>1605698245183</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1605698245183</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Initial implementation of API with ability to fetch from Property Listings endpoint.&#10;&#10;Added some filters &amp; types but more to be added.&#10;Added some basic tests, need to test all filters &amp; types.">
+      <created>1606212434239</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1606212434239</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Added more types &amp; filters.&#10;Added .travis.yml">
+      <created>1606490488995</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1606490488995</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Updated jestconfig.json to ignore dist instead of build.">
+      <created>1606490717145</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1606490717145</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+    <MESSAGE value="Added tsconfig.json" />
+    <MESSAGE value="Initial implementation of API with ability to fetch from Property Listings endpoint.&#10;&#10;Added some filters &amp; types but more to be added.&#10;Added some basic tests, need to test all filters &amp; types." />
+    <MESSAGE value="Added more types &amp; filters.&#10;Added .travis.yml" />
+    <MESSAGE value="Updated jestconfig.json to ignore dist instead of build." />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated jestconfig.json to ignore dist instead of build." />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="503" y="296" key="#ESLint" timestamp="1605978866405">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="503" y="296" key="#ESLint/0.0.1280.800@0.0.1280.800" timestamp="1605978866405" />
+    <state x="363" y="258" key="#Prettier" timestamp="1605697697130">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="363" y="258" key="#Prettier/0.0.1280.800@0.0.1280.800" timestamp="1605697697130" />
+    <state x="104" y="46" width="1071" height="754" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606388764669">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="104" y="46" width="1071" height="754" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.800@0.0.1280.800" timestamp="1606388764669" />
+    <state x="31" y="25" width="817" height="697" key="CommitChangelistDialog2" timestamp="1606650578617">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="31" y="25" width="817" height="697" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1606650578617" />
+    <state x="0" y="0" key="DiffContextDialog" timestamp="1606217076939">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="0" y="0" key="DiffContextDialog/0.0.1280.800@0.0.1280.800" timestamp="1606217076939" />
+    <state x="512" y="301" key="Github.ShareDialog" timestamp="1605697923661">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="512" y="301" key="Github.ShareDialog/0.0.1280.800@0.0.1280.800" timestamp="1605697923661" />
+    <state x="449" y="102" key="Github.UntrackedFilesDialog" timestamp="1605697971089">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="449" y="102" key="Github.UntrackedFilesDialog/0.0.1280.800@0.0.1280.800" timestamp="1605697971089" />
+    <state width="1259" height="158" key="GridCell.Tab.0.bottom" timestamp="1606650585540">
+      <screen x="0" y="25" width="1280" height="697" />
+    </state>
+    <state width="1259" height="316" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1606647198593" />
+    <state width="1259" height="158" key="GridCell.Tab.0.bottom/0.25.1280.697@0.25.1280.697" timestamp="1606650585540" />
+    <state width="1259" height="158" key="GridCell.Tab.0.center" timestamp="1606650585540">
+      <screen x="0" y="25" width="1280" height="697" />
+    </state>
+    <state width="1259" height="316" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1606647198590" />
+    <state width="1259" height="158" key="GridCell.Tab.0.center/0.25.1280.697@0.25.1280.697" timestamp="1606650585540" />
+    <state width="1259" height="158" key="GridCell.Tab.0.left" timestamp="1606650585539">
+      <screen x="0" y="25" width="1280" height="697" />
+    </state>
+    <state width="1259" height="316" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1606647198590" />
+    <state width="1259" height="158" key="GridCell.Tab.0.left/0.25.1280.697@0.25.1280.697" timestamp="1606650585539" />
+    <state width="1259" height="158" key="GridCell.Tab.0.right" timestamp="1606650585540">
+      <screen x="0" y="25" width="1280" height="697" />
+    </state>
+    <state width="1259" height="316" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1606647198592" />
+    <state width="1259" height="158" key="GridCell.Tab.0.right/0.25.1280.697@0.25.1280.697" timestamp="1606650585540" />
+    <state x="149" y="25" key="SettingsEditor" timestamp="1606650702050">
+      <screen x="0" y="25" width="1280" height="697" />
+    </state>
+    <state x="149" y="36" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1606305185711" />
+    <state x="149" y="25" key="SettingsEditor/0.25.1280.697@0.25.1280.697" timestamp="1606650702050" />
+    <state x="240" y="137" key="Vcs.Push.Dialog.v2" timestamp="1606490718981">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="240" y="137" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1606490718981" />
+    <state x="441" y="336" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606644321776">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="441" y="336" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.800@0.0.1280.800" timestamp="1606644321776" />
+    <state x="441" y="318" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.25.1280.697@0.25.1280.697" timestamp="1605968928296" />
+    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1605964356221">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup/0.0.1280.800@0.0.1280.800" timestamp="1605964356221" />
+  </component>
+</project>
