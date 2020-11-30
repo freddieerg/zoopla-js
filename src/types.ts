@@ -122,7 +122,7 @@ export interface PropertyListingsResponse {
 }
 
 export interface PropertyListingsRequest {
-    area: string;
+    area?: string;
     branch_id?: number;
     category?: filters.Category;
     chain_free?: boolean;
