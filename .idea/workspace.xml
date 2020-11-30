@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9c6a5eb0-0274-4cac-8ee0-55a02cc0f697" name="Default Changelist" comment="Updated jestconfig.json to ignore dist instead of build." />
+    <list default="true" id="9c6a5eb0-0274-4cac-8ee0-55a02cc0f697" name="Default Changelist" comment="Updated jestconfig.json to ignore dist instead of build.">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/potential.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/__test__/zoopla.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/__test__/zoopla.test.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/filters.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/filters.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/types.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zoopla.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/zoopla.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,7 +57,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Jest.Tests">
+  <component name="RunManager" selected="Node.js.potential.js">
     <configuration name="Tests" type="JavaScriptTestRunnerJest">
       <config-file value="$PROJECT_DIR$/jestconfig.json" />
       <node-interpreter value="project" />
@@ -67,12 +77,12 @@
       <scope-kind value="ALL" />
       <method v="2" />
     </configuration>
-    <configuration name="renoFinder.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="build/renoFinder.js" working-dir="$PROJECT_DIR$">
+    <configuration name="potential.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="dist/src/potential.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <list>
       <item itemvalue="Jest.Tests" />
-      <item itemvalue="Node.js.renoFinder.js" />
+      <item itemvalue="Node.js.potential.js" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -85,7 +95,7 @@
       <updated>1605696968312</updated>
       <workItem from="1605696969488" duration="50644000" />
       <workItem from="1606490211739" duration="4707000" />
-      <workItem from="1606650693382" duration="9000" />
+      <workItem from="1606650693382" duration="8012000" />
     </task>
     <task id="LOCAL-00001" summary="Added tsconfig.json">
       <created>1605698245183</created>
@@ -140,10 +150,10 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="363" y="258" key="#Prettier/0.0.1280.800@0.0.1280.800" timestamp="1605697697130" />
-    <state x="104" y="46" width="1071" height="754" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606388764669">
+    <state x="104" y="22" width="1071" height="778" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606651606780">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="104" y="46" width="1071" height="754" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.800@0.0.1280.800" timestamp="1606388764669" />
+    <state x="104" y="22" width="1071" height="778" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.800@0.0.1280.800" timestamp="1606651606780" />
     <state x="31" y="25" width="817" height="697" key="CommitChangelistDialog2" timestamp="1606650578617">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
@@ -152,33 +162,33 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="0" y="0" key="DiffContextDialog/0.0.1280.800@0.0.1280.800" timestamp="1606217076939" />
-    <state x="512" y="301" key="Github.ShareDialog" timestamp="1605697923661">
+    <state x="512" y="301" width="410" height="316" key="Github.ShareDialog" timestamp="1606650901167">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="512" y="301" key="Github.ShareDialog/0.0.1280.800@0.0.1280.800" timestamp="1605697923661" />
-    <state x="449" y="102" key="Github.UntrackedFilesDialog" timestamp="1605697971089">
+    <state x="512" y="301" width="410" height="316" key="Github.ShareDialog/0.0.1280.800@0.0.1280.800" timestamp="1606650901167" />
+    <state x="449" y="102" key="Github.UntrackedFilesDialog" timestamp="1606650915109">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="449" y="102" key="Github.UntrackedFilesDialog/0.0.1280.800@0.0.1280.800" timestamp="1605697971089" />
-    <state width="1259" height="158" key="GridCell.Tab.0.bottom" timestamp="1606650585540">
-      <screen x="0" y="25" width="1280" height="697" />
+    <state x="449" y="102" key="Github.UntrackedFilesDialog/0.0.1280.800@0.0.1280.800" timestamp="1606650915109" />
+    <state width="1259" height="170" key="GridCell.Tab.0.bottom" timestamp="1606696023560">
+      <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1259" height="316" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1606647198593" />
+    <state width="1259" height="170" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1606696023560" />
     <state width="1259" height="158" key="GridCell.Tab.0.bottom/0.25.1280.697@0.25.1280.697" timestamp="1606650585540" />
-    <state width="1259" height="158" key="GridCell.Tab.0.center" timestamp="1606650585540">
-      <screen x="0" y="25" width="1280" height="697" />
+    <state width="1259" height="170" key="GridCell.Tab.0.center" timestamp="1606696023558">
+      <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1259" height="316" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1606647198590" />
+    <state width="1259" height="170" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1606696023558" />
     <state width="1259" height="158" key="GridCell.Tab.0.center/0.25.1280.697@0.25.1280.697" timestamp="1606650585540" />
-    <state width="1259" height="158" key="GridCell.Tab.0.left" timestamp="1606650585539">
-      <screen x="0" y="25" width="1280" height="697" />
+    <state width="1259" height="170" key="GridCell.Tab.0.left" timestamp="1606696023529">
+      <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1259" height="316" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1606647198590" />
+    <state width="1259" height="170" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1606696023529" />
     <state width="1259" height="158" key="GridCell.Tab.0.left/0.25.1280.697@0.25.1280.697" timestamp="1606650585539" />
-    <state width="1259" height="158" key="GridCell.Tab.0.right" timestamp="1606650585540">
-      <screen x="0" y="25" width="1280" height="697" />
+    <state width="1259" height="170" key="GridCell.Tab.0.right" timestamp="1606696023558">
+      <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1259" height="316" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1606647198592" />
+    <state width="1259" height="170" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1606696023558" />
     <state width="1259" height="158" key="GridCell.Tab.0.right/0.25.1280.697@0.25.1280.697" timestamp="1606650585540" />
     <state x="149" y="25" key="SettingsEditor" timestamp="1606650702050">
       <screen x="0" y="25" width="1280" height="697" />

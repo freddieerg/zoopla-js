@@ -123,14 +123,23 @@ export interface PropertyListingsResponse {
 
 export interface PropertyListingsRequest {
     area: string;
+    branch_id?: number;
     category?: filters.Category;
+    chain_free?: boolean;
     created_since?: string | 'YYYY-MM-DD HH:MM:SS';
     description_style?: number;
+    furnished?: filters.Furnished;
+    include_featured_properties?: boolean | number;
+    include_rented?: boolean | number;
+    include_sold?: boolean | number;
     keywords?: string;
+    listing_id?: number;
+    listing_status?: filters.ListingStatus;
     maximum_beds?: number;
     maximum_price?: number;
     minimum_beds?: number;
     minimum_price?: number;
+    new_homes?: boolean;
     order_by?: filters.OrderBy;
     ordering?: filters.Ordering;
     page_number?: number;
@@ -138,4 +147,5 @@ export interface PropertyListingsRequest {
     property_type?: filters.PropertyType;
     property_sub_type?: filters.PropertySubType;
     radius?: number;
+    summarised?: boolean;
 }

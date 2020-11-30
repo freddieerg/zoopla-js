@@ -6,6 +6,17 @@ export enum Category {
     Commercial = 'commercial',
 }
 
+export enum ListingStatus {
+    Sale = 'sale',
+    Rent = 'rent',
+}
+
+export enum Furnished {
+    Furnished = 'furnished',
+    Unfurnished = 'unfurnished',
+    PartFurnished = 'part-furnished',
+}
+
 export enum OrderBy {
     Age = 'age',
     Price = 'price',

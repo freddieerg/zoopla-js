@@ -1,4 +1,4 @@
-import Zoopla from '../src/zoopla';
+import Zoopla from '../src';
 
 const zoopla = new Zoopla();
 
