@@ -5,7 +5,7 @@ class Zoopla {
     private readonly baseUrl: string;
 
     constructor() {
-        this.baseUrl = 'https://tk0j8r3nal.execute-api.us-east-1.amazonaws.com/dev/';
+        this.baseUrl = 'https://73j4ivtfs1.execute-api.eu-west-2.amazonaws.com/dev/';
     }
 
     /**

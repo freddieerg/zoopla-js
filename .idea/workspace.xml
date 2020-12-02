@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9c6a5eb0-0274-4cac-8ee0-55a02cc0f697" name="Default Changelist" comment="Updated jestconfig.json to ignore dist instead of build.">
+    <list default="true" id="9c6a5eb0-0274-4cac-8ee0-55a02cc0f697" name="Default Changelist" comment="Added more tests for propertyListings endpoint.">
       <change afterPath="$PROJECT_DIR$/src/potential.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintrc.json" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/__test__/zoopla.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/__test__/zoopla.test.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jestconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/jestconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/filters.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/filters.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/types.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zoopla.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/zoopla.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +56,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Jest.property-listings parameter tests.created_since">
+  <component name="RunManager" selected="Jest.Tests">
     <configuration name="Tests" type="JavaScriptTestRunnerJest">
       <config-file value="$PROJECT_DIR$/jestconfig.json" />
       <node-interpreter value="project" />
@@ -72,7 +76,7 @@
       <scope-kind value="ALL" />
       <method v="2" />
     </configuration>
-    <configuration name="property-listings parameter tests.created_since" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+    <configuration name="property-listings parameter tests.order_by.price: asc" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <config-file value="$PROJECT_DIR$/jestconfig.json" />
       <node-interpreter value="project" />
       <node-options value="" />
@@ -83,7 +87,71 @@
       <test-file value="$PROJECT_DIR$/__test__/zoopla.test.ts" />
       <test-names>
         <test-name value="property-listings parameter tests" />
-        <test-name value="created_since" />
+        <test-name value="order_by" />
+        <test-name value="price: asc" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="property-listings parameter tests.order_by.price_change: asc" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <config-file value="$PROJECT_DIR$/jestconfig.json" />
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/__test__/zoopla.test.ts" />
+      <test-names>
+        <test-name value="property-listings parameter tests" />
+        <test-name value="order_by" />
+        <test-name value="price_change: asc" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="property-listings parameter tests.order_by.price_change: desc" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <config-file value="$PROJECT_DIR$/jestconfig.json" />
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/__test__/zoopla.test.ts" />
+      <test-names>
+        <test-name value="property-listings parameter tests" />
+        <test-name value="order_by" />
+        <test-name value="price_change: desc" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="property-listings parameter tests.order_by.view_count: desc" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <config-file value="$PROJECT_DIR$/jestconfig.json" />
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/__test__/zoopla.test.ts" />
+      <test-names>
+        <test-name value="property-listings parameter tests" />
+        <test-name value="order_by" />
+        <test-name value="view_count: desc" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="property-listings parameter tests.page_size" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <config-file value="$PROJECT_DIR$/jestconfig.json" />
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/__test__/zoopla.test.ts" />
+      <test-names>
+        <test-name value="property-listings parameter tests" />
+        <test-name value="page_size" />
       </test-names>
       <method v="2" />
     </configuration>
@@ -92,12 +160,20 @@
     </configuration>
     <list>
       <item itemvalue="Jest.Tests" />
+      <item itemvalue="Jest.property-listings parameter tests.order_by.price: asc" />
+      <item itemvalue="Jest.property-listings parameter tests.order_by.price_change: desc" />
+      <item itemvalue="Jest.property-listings parameter tests.order_by.price_change: asc" />
+      <item itemvalue="Jest.property-listings parameter tests.order_by.view_count: desc" />
+      <item itemvalue="Jest.property-listings parameter tests.page_size" />
       <item itemvalue="Node.js.potential.js" />
-      <item itemvalue="Jest.property-listings parameter tests.created_since" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Jest.property-listings parameter tests.created_since" />
+        <item itemvalue="Jest.property-listings parameter tests.page_size" />
+        <item itemvalue="Jest.property-listings parameter tests.order_by.view_count: desc" />
+        <item itemvalue="Jest.property-listings parameter tests.order_by.price_change: asc" />
+        <item itemvalue="Jest.property-listings parameter tests.order_by.price_change: desc" />
+        <item itemvalue="Jest.property-listings parameter tests.order_by.price: asc" />
       </list>
     </recent_temporary>
   </component>
@@ -111,7 +187,8 @@
       <updated>1605696968312</updated>
       <workItem from="1605696969488" duration="50644000" />
       <workItem from="1606490211739" duration="4707000" />
-      <workItem from="1606650693382" duration="9822000" />
+      <workItem from="1606650693382" duration="26750000" />
+      <workItem from="1606905530540" duration="448000" />
     </task>
     <task id="LOCAL-00001" summary="Added tsconfig.json">
       <created>1605698245183</created>
@@ -148,7 +225,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606696254928</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Added tests for propertyListings params: area, branch_id, category, created_since.">
+      <created>1606698200282</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1606698200282</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -163,7 +247,9 @@
     <MESSAGE value="Added more types &amp; filters.&#10;Added .travis.yml" />
     <MESSAGE value="Updated jestconfig.json to ignore dist instead of build." />
     <MESSAGE value="Completed propertyListings() endpoint." />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed propertyListings() endpoint." />
+    <MESSAGE value="Added tests for propertyListings params: area, branch_id, category, created_since." />
+    <MESSAGE value="Added more tests for propertyListings endpoint." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added more tests for propertyListings endpoint." />
   </component>
   <component name="WindowStateProjectService">
     <state x="503" y="296" key="#ESLint" timestamp="1605978866405">
@@ -178,10 +264,14 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="104" y="22" width="1071" height="778" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.800@0.0.1280.800" timestamp="1606651606780" />
-    <state x="31" y="25" width="817" height="697" key="CommitChangelistDialog2" timestamp="1606696254646">
+    <state x="100" y="100" width="1080" height="600" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1606748175707">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="31" y="25" width="817" height="697" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1606696254646" />
+    <state x="100" y="100" width="1080" height="600" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1280.800@0.0.1280.800" timestamp="1606748175707" />
+    <state x="221" y="37" width="817" height="697" key="CommitChangelistDialog2" timestamp="1606906033787">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="221" y="37" width="817" height="697" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1606906033787" />
     <state x="0" y="0" key="DiffContextDialog" timestamp="1606217076939">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
@@ -194,43 +284,94 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="449" y="102" key="Github.UntrackedFilesDialog/0.0.1280.800@0.0.1280.800" timestamp="1606650915109" />
-    <state width="1259" height="236" key="GridCell.Tab.0.bottom" timestamp="1606697739486">
+    <state width="1259" height="264" key="GridCell.Tab.0.bottom" timestamp="1606904649386">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1259" height="236" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1606697739486" />
+    <state width="1259" height="264" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1606904649386" />
     <state width="1259" height="158" key="GridCell.Tab.0.bottom/0.25.1280.697@0.25.1280.697" timestamp="1606650585540" />
-    <state width="1259" height="236" key="GridCell.Tab.0.center" timestamp="1606697739485">
+    <state width="1259" height="264" key="GridCell.Tab.0.center" timestamp="1606904649384">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1259" height="236" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1606697739485" />
+    <state width="1259" height="264" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1606904649384" />
     <state width="1259" height="158" key="GridCell.Tab.0.center/0.25.1280.697@0.25.1280.697" timestamp="1606650585540" />
-    <state width="1259" height="236" key="GridCell.Tab.0.left" timestamp="1606697739485">
+    <state width="1259" height="264" key="GridCell.Tab.0.left" timestamp="1606904649383">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1259" height="236" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1606697739485" />
+    <state width="1259" height="264" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1606904649383" />
     <state width="1259" height="158" key="GridCell.Tab.0.left/0.25.1280.697@0.25.1280.697" timestamp="1606650585539" />
-    <state width="1259" height="236" key="GridCell.Tab.0.right" timestamp="1606697739486">
+    <state width="1259" height="264" key="GridCell.Tab.0.right" timestamp="1606904649385">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1259" height="236" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1606697739486" />
+    <state width="1259" height="264" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1606904649385" />
     <state width="1259" height="158" key="GridCell.Tab.0.right/0.25.1280.697@0.25.1280.697" timestamp="1606650585540" />
+    <state width="1259" height="264" key="GridCell.Tab.1.bottom" timestamp="1606904649389">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1259" height="264" key="GridCell.Tab.1.bottom/0.0.1280.800@0.0.1280.800" timestamp="1606904649389" />
+    <state width="1259" height="264" key="GridCell.Tab.1.center" timestamp="1606904649388">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1259" height="264" key="GridCell.Tab.1.center/0.0.1280.800@0.0.1280.800" timestamp="1606904649388" />
+    <state width="1259" height="264" key="GridCell.Tab.1.left" timestamp="1606904649386">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1259" height="264" key="GridCell.Tab.1.left/0.0.1280.800@0.0.1280.800" timestamp="1606904649386" />
+    <state width="1259" height="264" key="GridCell.Tab.1.right" timestamp="1606904649388">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1259" height="264" key="GridCell.Tab.1.right/0.0.1280.800@0.0.1280.800" timestamp="1606904649388" />
+    <state width="1259" height="264" key="GridCell.Tab.2.bottom" timestamp="1606904649390">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1259" height="264" key="GridCell.Tab.2.bottom/0.0.1280.800@0.0.1280.800" timestamp="1606904649390" />
+    <state width="1259" height="264" key="GridCell.Tab.2.center" timestamp="1606904649390">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1259" height="264" key="GridCell.Tab.2.center/0.0.1280.800@0.0.1280.800" timestamp="1606904649390" />
+    <state width="1259" height="264" key="GridCell.Tab.2.left" timestamp="1606904649389">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1259" height="264" key="GridCell.Tab.2.left/0.0.1280.800@0.0.1280.800" timestamp="1606904649389" />
+    <state width="1259" height="264" key="GridCell.Tab.2.right" timestamp="1606904649390">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1259" height="264" key="GridCell.Tab.2.right/0.0.1280.800@0.0.1280.800" timestamp="1606904649390" />
+    <state width="1259" height="264" key="GridCell.Tab.3.bottom" timestamp="1606904649393">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1259" height="264" key="GridCell.Tab.3.bottom/0.0.1280.800@0.0.1280.800" timestamp="1606904649393" />
+    <state width="1259" height="264" key="GridCell.Tab.3.center" timestamp="1606904649391">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1259" height="264" key="GridCell.Tab.3.center/0.0.1280.800@0.0.1280.800" timestamp="1606904649391" />
+    <state width="1259" height="264" key="GridCell.Tab.3.left" timestamp="1606904649391">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1259" height="264" key="GridCell.Tab.3.left/0.0.1280.800@0.0.1280.800" timestamp="1606904649391" />
+    <state width="1259" height="264" key="GridCell.Tab.3.right" timestamp="1606904649392">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1259" height="264" key="GridCell.Tab.3.right/0.0.1280.800@0.0.1280.800" timestamp="1606904649392" />
     <state x="149" y="25" key="SettingsEditor" timestamp="1606650702050">
       <screen x="0" y="25" width="1280" height="697" />
     </state>
     <state x="149" y="36" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1606305185711" />
     <state x="149" y="25" key="SettingsEditor/0.25.1280.697@0.25.1280.697" timestamp="1606650702050" />
-    <state x="240" y="137" key="Vcs.Push.Dialog.v2" timestamp="1606696259346">
+    <state x="240" y="137" key="Vcs.Push.Dialog.v2" timestamp="1606698201709">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="240" y="137" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1606696259345" />
+    <state x="240" y="137" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1606698201709" />
     <state x="441" y="336" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606644321776">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="441" y="336" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.800@0.0.1280.800" timestamp="1606644321776" />
     <state x="441" y="318" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.25.1280.697@0.25.1280.697" timestamp="1605968928296" />
-    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1605964356221">
+    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1606816221266">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup/0.0.1280.800@0.0.1280.800" timestamp="1605964356221" />
+    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup/0.0.1280.800@0.0.1280.800" timestamp="1606816221266" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/zoopla_js$Tests.info" NAME="Tests Coverage Results" MODIFIED="1606752646051" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="JestJavaScriptTestRunnerCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

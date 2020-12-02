@@ -43,21 +43,28 @@ export interface PriceChange {
     price?: number;
 }
 
+export interface PriceChangeSummary {
+    direction?: string;
+    percent?: string;
+    last_updated_date?: string;
+}
+
 export interface PropertyListing {
     country_code?: string;
     num_floors?: number;
     view_count_30day?: number;
     image_150_113_url?: string;
     listing_status?: string;
-    num_bedrooms?: number;
+    num_bedrooms?: number | string;
     location_is_approximate?: boolean;
     image_50_38_url?: string;
     site_plan?: Array<string>;
     latitude?: number;
     view_count?: number;
-    furnished_state?: boolean;
+    furnished_state?: string;
     agent_address?: string;
     branch_id?: number;
+    brochure?: Array<string>;
     category?: string;
     property_type?: string;
     images?: Array<PropertyImage>;
@@ -102,7 +109,7 @@ export interface PropertyListing {
     image_354_255_url?: string;
     image_url?: string;
     last_published_date?: string;
-    price_change_summary?: object;
+    price_change_summary?: PriceChangeSummary;
     price_per_sq_metres?: number;
     original_image?: Array<string>;
 }
