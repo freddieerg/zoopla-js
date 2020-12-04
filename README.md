@@ -60,7 +60,7 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-Zoopla currently claim to have a public API however many users have experienced their API key automatically disabling after 24 hours. This API is essentially a mirror of the Zoopla API that redirects requests through their mobile app and returns the response in JSON. 
+This project takes publicly available data from Zoopla and makes it available for use in JS.
 
 
 ### Dependancies
