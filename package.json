@@ -2,8 +2,8 @@
   "name": "zoopla-js",
   "version": "0.1.0",
   "description": "A JS wrapper for the Zoopla API",
-  "main": "./dist/src/index.js",
   "license": "MIT",
+  "types": "dist/index.d.ts",
   "files": [
     "dist/**"
   ],

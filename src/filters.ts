@@ -24,6 +24,21 @@ export enum OrderBy {
     ViewCount = 'view_count',
 }
 
+export enum EstimatesOrderBy {
+    Address = 'address',
+    LastSold = 'last_sold',
+    PricePaid = 'price_paid',
+    EstimatedValue = 'estimated_value',
+}
+
+export enum EstimatesPropertyType {
+    All = 'false',
+    Detached = 'detached',
+    SemiDetached = 'semi_detached',
+    Terraced = 'terraced',
+    Flats = 'flat',
+}
+
 export enum Ordering {
     Descending = 'descending',
     Ascending = 'ascending',
@@ -54,4 +69,27 @@ export enum PropertySubType {
     TerracedBungalow = 'terraced_bungalow',
     Cottage = 'cottage',
     MobileParkHome = 'park_home',
+}
+
+export enum OutputType {
+    Area = 'area',
+    Town = 'town',
+    Outcode = 'outcode',
+    County = 'county',
+    Country = 'country',
+}
+
+export enum AreaType {
+    Areas = 'areas',
+    Streets = 'streets',
+    Postcodes = 'postcodes',
+    Outcodes = 'outcodes',
+    Towns = 'towns',
+    Counties = 'counties',
+}
+
+export enum Size {
+    Small = 'small',
+    Medium = 'medium',
+    Large = 'large',
 }

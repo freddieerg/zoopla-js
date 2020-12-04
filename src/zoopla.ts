@@ -43,6 +43,7 @@ class Zoopla {
             baseURL: this.baseUrl,
             params: finalParams,
         };
+
         return (await axios.request(request)).data;
     }
 
@@ -52,6 +53,65 @@ class Zoopla {
      */
     public async propertyListings(params: types.PropertyListingsRequest): Promise<types.PropertyListingsResponse> {
         return this.makeRequest('property_listings', params);
+    }
+
+    /**
+     * Retrieve the Zoopla.co.uk Zed-Index! for a requested area.
+     * @param params
+     */
+    public async zedIndex(params: types.ZedIndexRequest): Promise<types.ZedIndexResponse> {
+        return this.makeRequest('zed_index', params);
+    }
+
+    /**
+     * Generate a graph of values for an outcode over the previous 3 months
+     * and return the URL to the generated image. Please note that the output
+     * type must always be "outcode" for this method and therefore an area sufficient
+     * to produce an outcode is required.
+     * @param params
+     */
+    public async areaValueGraphs(params: types.AreaValueGraphsRequest): Promise<types.AreaValueGraphsResponse> {
+        return this.makeRequest('area_value_graphs', params);
+    }
+
+    /**
+     * Retrieve richlist values for a specific area.
+     * @param params
+     */
+    public async richList(params: types.RichListRequest): Promise<types.RichListResponse> {
+        return this.makeRequest('richlist', params);
+    }
+
+    /**
+     * Retrieve the average sale price for properties in a particular area.
+     * @param params
+     */
+    public async averagesArea(params: types.AveragesAreaRequest): Promise<types.AveragesAreaResponse> {
+        return this.makeRequest('averages_area', params);
+    }
+
+    /**
+     * Retrieve a list of house price estimates for the requested area.
+     * @param params
+     */
+    public async zedIndices(params: types.ZedIndicesRequest): Promise<types.ZedIndicesResponse> {
+        return this.makeRequest('zed_indices', params);
+    }
+
+    /**
+     * Retrieve a list of Zoopla estimates for the requested area.
+     * @param params
+     */
+    public async zooplaEstimates(params: types.ZooplaEstimatesRequest): Promise<types.ZooplaEstimatesResponse> {
+        return this.makeRequest('zoopla_estimates', params);
+    }
+
+    /**
+     * Retrieve the average sale price for a particular sub-area type within a particular area.
+     * @param params
+     */
+    public async averageSoldPrices(params: types.AverageSoldPricesRequest): Promise<types.AverageSoldPricesResponse> {
+        return this.makeRequest('average_sold_prices', params);
     }
 }
 

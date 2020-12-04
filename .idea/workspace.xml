@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9c6a5eb0-0274-4cac-8ee0-55a02cc0f697" name="Default Changelist" comment="Added more tests for propertyListings endpoint.">
-      <change afterPath="$PROJECT_DIR$/src/potential.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.eslintrc.json" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.json" afterDir="false" />
+    <list default="true" id="9c6a5eb0-0274-4cac-8ee0-55a02cc0f697" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/__test__/zoopla.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/__test__/zoopla.test.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jestconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/jestconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/filters.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/filters.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/types.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/zoopla.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/zoopla.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +55,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Jest.Tests">
+  <component name="RunManager" selected="Jest.endpoint tests">
     <configuration name="Tests" type="JavaScriptTestRunnerJest">
       <config-file value="$PROJECT_DIR$/jestconfig.json" />
       <node-interpreter value="project" />
@@ -76,71 +75,7 @@
       <scope-kind value="ALL" />
       <method v="2" />
     </configuration>
-    <configuration name="property-listings parameter tests.order_by.price: asc" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <config-file value="$PROJECT_DIR$/jestconfig.json" />
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/__test__/zoopla.test.ts" />
-      <test-names>
-        <test-name value="property-listings parameter tests" />
-        <test-name value="order_by" />
-        <test-name value="price: asc" />
-      </test-names>
-      <method v="2" />
-    </configuration>
-    <configuration name="property-listings parameter tests.order_by.price_change: asc" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <config-file value="$PROJECT_DIR$/jestconfig.json" />
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/__test__/zoopla.test.ts" />
-      <test-names>
-        <test-name value="property-listings parameter tests" />
-        <test-name value="order_by" />
-        <test-name value="price_change: asc" />
-      </test-names>
-      <method v="2" />
-    </configuration>
-    <configuration name="property-listings parameter tests.order_by.price_change: desc" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <config-file value="$PROJECT_DIR$/jestconfig.json" />
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/__test__/zoopla.test.ts" />
-      <test-names>
-        <test-name value="property-listings parameter tests" />
-        <test-name value="order_by" />
-        <test-name value="price_change: desc" />
-      </test-names>
-      <method v="2" />
-    </configuration>
-    <configuration name="property-listings parameter tests.order_by.view_count: desc" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <config-file value="$PROJECT_DIR$/jestconfig.json" />
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/__test__/zoopla.test.ts" />
-      <test-names>
-        <test-name value="property-listings parameter tests" />
-        <test-name value="order_by" />
-        <test-name value="view_count: desc" />
-      </test-names>
-      <method v="2" />
-    </configuration>
-    <configuration name="property-listings parameter tests.page_size" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+    <configuration name="endpoint tests" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <config-file value="$PROJECT_DIR$/jestconfig.json" />
       <node-interpreter value="project" />
       <node-options value="" />
@@ -150,8 +85,66 @@
       <scope-kind value="SUITE" />
       <test-file value="$PROJECT_DIR$/__test__/zoopla.test.ts" />
       <test-names>
-        <test-name value="property-listings parameter tests" />
-        <test-name value="page_size" />
+        <test-name value="endpoint tests" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="endpoint tests.propertyListings" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <config-file value="$PROJECT_DIR$/jestconfig.json" />
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/__test__/zoopla.test.ts" />
+      <test-names>
+        <test-name value="endpoint tests" />
+        <test-name value="propertyListings" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="endpoint tests.zedIndex" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <config-file value="$PROJECT_DIR$/jestconfig.json" />
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/__test__/zoopla.test.ts" />
+      <test-names>
+        <test-name value="endpoint tests" />
+        <test-name value="zedIndex" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="test zoopla_estimates endpoint" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <config-file value="$PROJECT_DIR$/jestconfig.json" />
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/__test__/zoopla.test.ts" />
+      <test-names>
+        <test-name value="test zoopla_estimates endpoint" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="test zoopla_estimates endpoint.zoopla estimate" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <config-file value="$PROJECT_DIR$/jestconfig.json" />
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/__test__/zoopla.test.ts" />
+      <test-names>
+        <test-name value="test zoopla_estimates endpoint" />
+        <test-name value="zoopla estimate" />
       </test-names>
       <method v="2" />
     </configuration>
@@ -160,20 +153,20 @@
     </configuration>
     <list>
       <item itemvalue="Jest.Tests" />
-      <item itemvalue="Jest.property-listings parameter tests.order_by.price: asc" />
-      <item itemvalue="Jest.property-listings parameter tests.order_by.price_change: desc" />
-      <item itemvalue="Jest.property-listings parameter tests.order_by.price_change: asc" />
-      <item itemvalue="Jest.property-listings parameter tests.order_by.view_count: desc" />
-      <item itemvalue="Jest.property-listings parameter tests.page_size" />
       <item itemvalue="Node.js.potential.js" />
+      <item itemvalue="Jest.test zoopla_estimates endpoint.zoopla estimate" />
+      <item itemvalue="Jest.test zoopla_estimates endpoint" />
+      <item itemvalue="Jest.endpoint tests.propertyListings" />
+      <item itemvalue="Jest.endpoint tests.zedIndex" />
+      <item itemvalue="Jest.endpoint tests" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Jest.property-listings parameter tests.page_size" />
-        <item itemvalue="Jest.property-listings parameter tests.order_by.view_count: desc" />
-        <item itemvalue="Jest.property-listings parameter tests.order_by.price_change: asc" />
-        <item itemvalue="Jest.property-listings parameter tests.order_by.price_change: desc" />
-        <item itemvalue="Jest.property-listings parameter tests.order_by.price: asc" />
+        <item itemvalue="Jest.endpoint tests" />
+        <item itemvalue="Jest.endpoint tests.zedIndex" />
+        <item itemvalue="Jest.endpoint tests.propertyListings" />
+        <item itemvalue="Jest.test zoopla_estimates endpoint" />
+        <item itemvalue="Jest.test zoopla_estimates endpoint.zoopla estimate" />
       </list>
     </recent_temporary>
   </component>
@@ -188,7 +181,7 @@
       <workItem from="1605696969488" duration="50644000" />
       <workItem from="1606490211739" duration="4707000" />
       <workItem from="1606650693382" duration="26750000" />
-      <workItem from="1606905530540" duration="448000" />
+      <workItem from="1606905530540" duration="17657000" />
     </task>
     <task id="LOCAL-00001" summary="Added tsconfig.json">
       <created>1605698245183</created>
@@ -232,7 +225,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606698200282</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Added more tests for propertyListings endpoint.">
+      <created>1606906089867</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1606906089867</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -268,10 +268,10 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="100" y="100" width="1080" height="600" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1280.800@0.0.1280.800" timestamp="1606748175707" />
-    <state x="221" y="37" width="817" height="697" key="CommitChangelistDialog2" timestamp="1606906033787">
+    <state x="221" y="37" width="817" height="697" key="CommitChangelistDialog2" timestamp="1606906089675">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="221" y="37" width="817" height="697" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1606906033787" />
+    <state x="221" y="37" width="817" height="697" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1606906089675" />
     <state x="0" y="0" key="DiffContextDialog" timestamp="1606217076939">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
@@ -284,25 +284,25 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="449" y="102" key="Github.UntrackedFilesDialog/0.0.1280.800@0.0.1280.800" timestamp="1606650915109" />
-    <state width="1259" height="264" key="GridCell.Tab.0.bottom" timestamp="1606904649386">
+    <state width="1259" height="204" key="GridCell.Tab.0.bottom" timestamp="1607086301661">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1259" height="264" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1606904649386" />
+    <state width="1259" height="204" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1607086301661" />
     <state width="1259" height="158" key="GridCell.Tab.0.bottom/0.25.1280.697@0.25.1280.697" timestamp="1606650585540" />
-    <state width="1259" height="264" key="GridCell.Tab.0.center" timestamp="1606904649384">
+    <state width="1259" height="204" key="GridCell.Tab.0.center" timestamp="1607086301660">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1259" height="264" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1606904649384" />
+    <state width="1259" height="204" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1607086301660" />
     <state width="1259" height="158" key="GridCell.Tab.0.center/0.25.1280.697@0.25.1280.697" timestamp="1606650585540" />
-    <state width="1259" height="264" key="GridCell.Tab.0.left" timestamp="1606904649383">
+    <state width="1259" height="204" key="GridCell.Tab.0.left" timestamp="1607086301659">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1259" height="264" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1606904649383" />
+    <state width="1259" height="204" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1607086301659" />
     <state width="1259" height="158" key="GridCell.Tab.0.left/0.25.1280.697@0.25.1280.697" timestamp="1606650585539" />
-    <state width="1259" height="264" key="GridCell.Tab.0.right" timestamp="1606904649385">
+    <state width="1259" height="204" key="GridCell.Tab.0.right" timestamp="1607086301660">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1259" height="264" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1606904649385" />
+    <state width="1259" height="204" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1607086301660" />
     <state width="1259" height="158" key="GridCell.Tab.0.right/0.25.1280.697@0.25.1280.697" timestamp="1606650585540" />
     <state width="1259" height="264" key="GridCell.Tab.1.bottom" timestamp="1606904649389">
       <screen x="0" y="0" width="1280" height="800" />
@@ -357,19 +357,19 @@
     </state>
     <state x="149" y="36" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1606305185711" />
     <state x="149" y="25" key="SettingsEditor/0.25.1280.697@0.25.1280.697" timestamp="1606650702050" />
-    <state x="240" y="137" key="Vcs.Push.Dialog.v2" timestamp="1606698201709">
+    <state x="240" y="137" key="Vcs.Push.Dialog.v2" timestamp="1606906091666">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="240" y="137" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1606698201709" />
+    <state x="240" y="137" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1606906091666" />
     <state x="441" y="336" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606644321776">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="441" y="336" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.800@0.0.1280.800" timestamp="1606644321776" />
     <state x="441" y="318" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.25.1280.697@0.25.1280.697" timestamp="1605968928296" />
-    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1606816221266">
+    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1606923792504">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup/0.0.1280.800@0.0.1280.800" timestamp="1606816221266" />
+    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup/0.0.1280.800@0.0.1280.800" timestamp="1606923792504" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/zoopla_js$Tests.info" NAME="Tests Coverage Results" MODIFIED="1606752646051" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="JestJavaScriptTestRunnerCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />

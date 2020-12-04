@@ -2,7 +2,73 @@ import Zoopla, { Filters } from '../src';
 
 const zoopla = new Zoopla();
 
-describe('property-listings parameter tests', () => {
+describe('endpoint tests', () => {
+    test('propertyListings', async () => {
+        try {
+            await zoopla.propertyListings({});
+        } catch (e) {
+            expect(e.response.data.error_code).toBe('7');
+        }
+    });
+
+    test('zedIndex', async () => {
+        try {
+            await zoopla.zedIndex({});
+        } catch (e) {
+            expect(e.response.data.error_code).toBe('7');
+        }
+    });
+
+    test('areaValueGraphs', async () => {
+        try {
+            await zoopla.areaValueGraphs({});
+        } catch (e) {
+            expect(e.response.data.error_code).toBe('1');
+        }
+    });
+
+    test('richList', async () => {
+        try {
+            await zoopla.richList({});
+        } catch (e) {
+            expect(e.response.data.error_code).toBe('1');
+        }
+    });
+
+    test('averagesArea', async () => {
+        try {
+            await zoopla.averagesArea({});
+        } catch (e) {
+            expect(e.response.data.error_code).toBe('1');
+        }
+    });
+
+    test('zedIndices', async () => {
+        try {
+            await zoopla.zedIndices({});
+        } catch (e) {
+            expect(e.response.data.error_code).toBe('1');
+        }
+    });
+
+    test('zooplaEstimates', async () => {
+        try {
+            await zoopla.zooplaEstimates({});
+        } catch (e) {
+            expect(e.response.data.error_code).toBe('7');
+        }
+    });
+
+    test('averageSoldPrices', async () => {
+        try {
+            await zoopla.averageSoldPrices({});
+        } catch (e) {
+            expect(e.response.data.error_code).toBe('1');
+        }
+    });
+});
+
+describe('property-listings tests', () => {
     test('area', async () => {
         const r = await zoopla.propertyListings({
             area: 'Bampton, Oxfordshire',
@@ -316,5 +382,43 @@ describe('property-listings parameter tests', () => {
 
             expect(r.listing.length).toEqual(100);
         });
+    });
+});
+
+describe('zed-index tests', () => {
+    test('output type: town', async () => {
+        const r = await zoopla.zedIndex({
+            area: 'Oxford',
+            output_type: Filters.OutputType.Town,
+        });
+
+        expect(r.town).toBe('Oxford');
+    });
+
+    test('output type: outcode', async () => {
+        const r = await zoopla.zedIndex({
+            area: 'OX1',
+            output_type: Filters.OutputType.Outcode,
+        });
+
+        expect(r.postcode).toBe('OX1');
+    });
+
+    test('output type: county', async () => {
+        const r = await zoopla.zedIndex({
+            area: 'Oxfordshire',
+            output_type: Filters.OutputType.County,
+        });
+
+        expect(r.county).toBe('Oxfordshire');
+    });
+
+    test('output type: county', async () => {
+        const r = await zoopla.zedIndex({
+            area: 'England',
+            output_type: Filters.OutputType.Country,
+        });
+
+        expect(r.country).toBe('England');
     });
 });
