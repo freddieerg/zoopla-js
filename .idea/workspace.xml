@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="9c6a5eb0-0274-4cac-8ee0-55a02cc0f697" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/types.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,12 +148,12 @@
     </configuration>
     <list>
       <item itemvalue="Jest.Tests" />
-      <item itemvalue="Node.js.potential.js" />
-      <item itemvalue="Jest.test zoopla_estimates endpoint.zoopla estimate" />
-      <item itemvalue="Jest.test zoopla_estimates endpoint" />
+      <item itemvalue="Jest.endpoint tests" />
       <item itemvalue="Jest.endpoint tests.propertyListings" />
       <item itemvalue="Jest.endpoint tests.zedIndex" />
-      <item itemvalue="Jest.endpoint tests" />
+      <item itemvalue="Jest.test zoopla_estimates endpoint" />
+      <item itemvalue="Jest.test zoopla_estimates endpoint.zoopla estimate" />
+      <item itemvalue="Node.js.potential.js" />
     </list>
     <recent_temporary>
       <list>
@@ -176,7 +176,12 @@
       <workItem from="1605696969488" duration="50644000" />
       <workItem from="1606490211739" duration="4707000" />
       <workItem from="1606650693382" duration="26750000" />
-      <workItem from="1606905530540" duration="19107000" />
+      <workItem from="1606905530540" duration="22098000" />
+      <workItem from="1607093354550" duration="3000" />
+      <workItem from="1607093422866" duration="5379000" />
+      <workItem from="1607338722343" duration="1989000" />
+      <workItem from="1607385474097" duration="1087000" />
+      <workItem from="1607632666857" duration="349000" />
     </task>
     <task id="LOCAL-00001" summary="Added tsconfig.json">
       <created>1605698245183</created>
@@ -234,7 +239,21 @@
       <option name="project" value="LOCAL" />
       <updated>1607086480047</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Added more endpoints except those that require a session ID: Arrange Viewing, Arrange Appraisals.&#10;&#10;Some endpoints need more tests but currently all endpoints are tested to ensure valid without any params.">
+      <created>1607088479596</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1607088479596</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Updates README.md">
+      <created>1607088731386</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1607088731386</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -252,7 +271,8 @@
     <MESSAGE value="Added tests for propertyListings params: area, branch_id, category, created_since." />
     <MESSAGE value="Added more tests for propertyListings endpoint." />
     <MESSAGE value="Added more endpoints except those that require a session ID: Arrange Viewing, Arrange Appraisals.&#10;&#10;Some endpoints need more tests but currently all endpoints are tested to ensure valid without any params." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added more endpoints except those that require a session ID: Arrange Viewing, Arrange Appraisals.&#10;&#10;Some endpoints need more tests but currently all endpoints are tested to ensure valid without any params." />
+    <MESSAGE value="Updates README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updates README.md" />
   </component>
   <component name="WindowStateProjectService">
     <state x="503" y="296" key="#ESLint" timestamp="1605978866405">
@@ -271,10 +291,10 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="100" y="100" width="1080" height="600" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1280.800@0.0.1280.800" timestamp="1606748175707" />
-    <state x="221" y="37" width="817" height="697" key="CommitChangelistDialog2" timestamp="1607086479839">
+    <state x="221" y="37" width="817" height="697" key="CommitChangelistDialog2" timestamp="1607088731190">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="221" y="37" width="817" height="697" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1607086479839" />
+    <state x="221" y="37" width="817" height="697" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1607088731190" />
     <state x="0" y="0" key="DiffContextDialog" timestamp="1606217076939">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
@@ -287,26 +307,26 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="449" y="102" key="Github.UntrackedFilesDialog/0.0.1280.800@0.0.1280.800" timestamp="1606650915109" />
-    <state width="1259" height="204" key="GridCell.Tab.0.bottom" timestamp="1607086341250">
-      <screen x="0" y="0" width="1280" height="800" />
+    <state width="1259" height="204" key="GridCell.Tab.0.bottom" timestamp="1607091172270">
+      <screen x="0" y="25" width="1280" height="697" />
     </state>
     <state width="1259" height="204" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1607086341250" />
-    <state width="1259" height="158" key="GridCell.Tab.0.bottom/0.25.1280.697@0.25.1280.697" timestamp="1606650585540" />
-    <state width="1259" height="204" key="GridCell.Tab.0.center" timestamp="1607086341249">
-      <screen x="0" y="0" width="1280" height="800" />
+    <state width="1259" height="204" key="GridCell.Tab.0.bottom/0.25.1280.697@0.25.1280.697" timestamp="1607091172270" />
+    <state width="1259" height="204" key="GridCell.Tab.0.center" timestamp="1607091172270">
+      <screen x="0" y="25" width="1280" height="697" />
     </state>
     <state width="1259" height="204" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1607086341249" />
-    <state width="1259" height="158" key="GridCell.Tab.0.center/0.25.1280.697@0.25.1280.697" timestamp="1606650585540" />
-    <state width="1259" height="204" key="GridCell.Tab.0.left" timestamp="1607086341249">
-      <screen x="0" y="0" width="1280" height="800" />
+    <state width="1259" height="204" key="GridCell.Tab.0.center/0.25.1280.697@0.25.1280.697" timestamp="1607091172270" />
+    <state width="1259" height="204" key="GridCell.Tab.0.left" timestamp="1607091172269">
+      <screen x="0" y="25" width="1280" height="697" />
     </state>
     <state width="1259" height="204" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1607086341249" />
-    <state width="1259" height="158" key="GridCell.Tab.0.left/0.25.1280.697@0.25.1280.697" timestamp="1606650585539" />
-    <state width="1259" height="204" key="GridCell.Tab.0.right" timestamp="1607086341250">
-      <screen x="0" y="0" width="1280" height="800" />
+    <state width="1259" height="204" key="GridCell.Tab.0.left/0.25.1280.697@0.25.1280.697" timestamp="1607091172269" />
+    <state width="1259" height="204" key="GridCell.Tab.0.right" timestamp="1607091172270">
+      <screen x="0" y="25" width="1280" height="697" />
     </state>
     <state width="1259" height="204" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1607086341250" />
-    <state width="1259" height="158" key="GridCell.Tab.0.right/0.25.1280.697@0.25.1280.697" timestamp="1606650585540" />
+    <state width="1259" height="204" key="GridCell.Tab.0.right/0.25.1280.697@0.25.1280.697" timestamp="1607091172270" />
     <state width="1259" height="264" key="GridCell.Tab.1.bottom" timestamp="1606904649389">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
@@ -355,15 +375,19 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state width="1259" height="264" key="GridCell.Tab.3.right/0.0.1280.800@0.0.1280.800" timestamp="1606904649392" />
+    <state x="278" y="179" key="MultipleFileMergeDialog" timestamp="1607088497822">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="278" y="179" key="MultipleFileMergeDialog/0.0.1280.800@0.0.1280.800" timestamp="1607088497821" />
     <state x="149" y="25" key="SettingsEditor" timestamp="1606650702050">
       <screen x="0" y="25" width="1280" height="697" />
     </state>
     <state x="149" y="36" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1606305185711" />
     <state x="149" y="25" key="SettingsEditor/0.25.1280.697@0.25.1280.697" timestamp="1606650702050" />
-    <state x="240" y="137" key="Vcs.Push.Dialog.v2" timestamp="1607086481861">
+    <state x="240" y="137" key="Vcs.Push.Dialog.v2" timestamp="1607088732905">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="240" y="137" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1607086481861" />
+    <state x="240" y="137" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1607088732905" />
     <state x="441" y="336" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606644321776">
       <screen x="0" y="0" width="1280" height="800" />
     </state>

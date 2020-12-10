@@ -132,7 +132,7 @@ export interface PropertyListingsResponse {
     result_count?: number;
     longitude?: number;
     area_name?: string;
-    listing?: Array<PropertyListing>;
+    listing: Array<PropertyListing>;
     street?: string;
     town?: string;
     latitude?: number;
