@@ -2,10 +2,10 @@ import axios, { AxiosRequestConfig } from 'axios';
 import * as types from './types';
 
 class Zoopla {
-    private readonly baseUrl: string;
+    private readonly bridgeUrl: string;
 
     constructor() {
-        this.baseUrl = 'https://73j4ivtfs1.execute-api.eu-west-2.amazonaws.com/dev/';
+        this.bridgeUrl = 'https://8t6gl28l9f.execute-api.eu-west-2.amazonaws.com/';
     }
 
     /**
@@ -40,7 +40,7 @@ class Zoopla {
         const request: AxiosRequestConfig = {
             url: `${endpoint}.js`,
             method: 'GET',
-            baseURL: this.baseUrl,
+            baseURL: this.bridgeUrl,
             params: finalParams,
         };
 
