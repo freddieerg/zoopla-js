@@ -4,11 +4,4 @@ node_js:
 script:
 - yarn run build
 - yarn run test
-deploy:
-  provider: npm
-  email: freddie.erg@outlook.com
-  api_key:
-    secure: OV/4ISo+i9Nid5fd7e/Ev0bO6GvWCMj5US/V/Qu5R27OVzW7OrO8ANxYzQLXBW8bjUPkxu0Exp0IFaOm2InU8aqrJpiBVyrGNdXCDw3iTsMSKZp6NtjvSdrWSI+OjfVS9OulDUyKH8u7uMZ8B3dKKm1ZXyrwSj4KLUAB7fODhFvqs45l1g/WO2eSXrnldtHEGPM0RelhaB7zi6plkA8e81HBr3CQFuV6PjBtSECBNQb+mAFMBrFTe7A4N+gwPD7wPiJbjWLarkv1xO2gF79ScIcDE67p+gviBLGm6ehwx6Zl6Csovg0cNmcrnNmg2YUZFD/zet49nCR0E1DcXBXVTMEygwPu9XFqyP4Qzk1WGVn5BIHS43Kt7WxoqCH6hssifiIr2rtgZjazdXVPwc+NoM345xTrQdOXdKaWcP2JlABhQ9D+qUSAr0ROuntQINZV8piW6o2B1E5oukwpt5aIOHIeM4pg5CI2Kol96bqyUc21GHe/AYQbFbHh6/JQlOw4liB+abvvsSW3ozlytKElXDy6hyV0rB1y+BHQJIi9RrQlvL9Oq5E0I8K3BpuLNNY60NYfnKZvqUlnRKBSzsRalegc/qzMVWz5QvW8cJe8vp18Ctio4BddSREtsdS+umNY5MGybV6T0FZ5Qsk+lkFfIdK6qMeNtDpgQDhr+P/xSsc=
-  on:
-    repo: freddieerg/zoopla-js
-  skip_cleanup: 'true'
+
