@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9c6a5eb0-0274-4cac-8ee0-55a02cc0f697" name="Default Changelist" comment="">
+    <list default="true" id="9c6a5eb0-0274-4cac-8ee0-55a02cc0f697" name="Default Changelist" comment="Removed Travis deploy">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -185,7 +185,8 @@
       <workItem from="1607632666857" duration="2599000" />
       <workItem from="1607988056015" duration="883000" />
       <workItem from="1607989011936" duration="3940000" />
-      <workItem from="1607994007676" duration="4961000" />
+      <workItem from="1607994007676" duration="6203000" />
+      <workItem from="1608032407388" duration="1765000" />
     </task>
     <task id="LOCAL-00001" summary="Added tsconfig.json">
       <created>1605698245183</created>
@@ -299,7 +300,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608029329373</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Removed Travis deploy">
+      <created>1608030762588</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1608030762588</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -324,7 +332,8 @@
     <MESSAGE value="Yarn deployment test." />
     <MESSAGE value="encrypted api token" />
     <MESSAGE value="travis updates" />
-    <option name="LAST_COMMIT_MESSAGE" value="travis updates" />
+    <MESSAGE value="Removed Travis deploy" />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed Travis deploy" />
   </component>
   <component name="WindowStateProjectService">
     <state x="503" y="296" key="#ESLint" timestamp="1605978866405">
@@ -347,10 +356,10 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="378" y="165" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.800@0.0.1280.800" timestamp="1608026181788" />
-    <state x="221" y="37" width="817" height="697" key="CommitChangelistDialog2" timestamp="1608029329177">
+    <state x="221" y="37" width="817" height="697" key="CommitChangelistDialog2" timestamp="1608034514784">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="221" y="37" width="817" height="697" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1608029329177" />
+    <state x="221" y="37" width="817" height="697" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1608034514784" />
     <state x="0" y="0" key="DiffContextDialog" timestamp="1606217076939">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
@@ -440,10 +449,10 @@
     </state>
     <state x="149" y="36" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1606305185711" />
     <state x="149" y="25" key="SettingsEditor/0.25.1280.697@0.25.1280.697" timestamp="1606650702050" />
-    <state x="240" y="137" key="Vcs.Push.Dialog.v2" timestamp="1608029330485">
+    <state x="240" y="137" key="Vcs.Push.Dialog.v2" timestamp="1608034576858">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="240" y="137" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1608029330485" />
+    <state x="240" y="137" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1608034576858" />
     <state x="441" y="336" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606644321776">
       <screen x="0" y="0" width="1280" height="800" />
     </state>

@@ -76,15 +76,21 @@ To start using zoopla-js simply install via the NPM registry.
 
 ### Installation
 
-Installation is simple via ether npm or yarn:
+This package is hosted on GitHub not NPM. To install it you will need to add a scoped registry to your package manager.
+```sh
+  https://npm.pkg.github.com
+  ```
+This registry should catch all package requests with @freddieerg scope.
+
+Once this is setup you can install using the usual commands:
 
 * npm
   ```sh
-  npm install zoopla-js
+  npm install @freddieerg/zoopla-js
   ```
 * yarn
   ```sh
-  yarn add zoopla-js
+  yarn add @freddieerg/zoopla-js
   ```
 
 
