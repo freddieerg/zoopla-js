@@ -4,3 +4,7 @@ node_js:
 script:
   - yarn run build
   - yarn run test
+deploy:
+  provider: npm
+  api_token: c8c06c22-c1e5-45d4-b3e7-360434c3bca6
+  edge: true # opt in to dpl v2
