@@ -12,9 +12,6 @@
     "test": "jest --config jestconfig.json",
     "build": "tsc"
   },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
-  },
   "repository": "git://github.com/freddieerg/zoopla-js.git",
   "devDependencies": {
     "@types/jest": "^26.0.15",

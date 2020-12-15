@@ -1,10 +1,14 @@
 language: node_js
 node_js:
-  - '15.2.1'
+- 15.2.1
 script:
-  - yarn run build
-  - yarn run test
+- yarn run build
+- yarn run test
 deploy:
   provider: npm
-  api_token: fsL62MdA9xivBNabjS2vKfmR8NJhjDAw1Gf+9Py6i2fei+UwICpNOAOU5Tc7Scd/KOGU7W7JlVj3ZnfHrvL1iRpJQLGScrGVq1iYYTOOv7jNiK2afQxp+s//273AIYdZUqehX3DNY8ATSKSlEUjy1ksIdLR3nB6uFQc7Y9NUZ7WNWlOKdnFGKZw2rUvVqfsfgHbr11yizeOgFOs1w12ustUVZDzEA5twxV4O/KlQ0s2pTUq3Y8iwTyoh2S3bY1LZ72j8+lsbNw2M7BnMjJBJxjKRwiAySfyv6cld4VgVz5NBxPlJomb5d5T+Qb15+L0iGSwk//JtmdpNhi/hVCspEFsnsQn3Zes+8o4TZPn7ZpolmQRrP2eX72i2n+PfrYnwwgOf3Ywl1csw7GkDdsbIsP9mz05ym/LyvJYySUlSIBcuKgaxiE553LnNMZRyYleqO1k8h4VyNC4N3xoFp/iYUjgLKK640iMYC0Scu62dE4NHHT7UIanhY3xMxtJOcbKg837+hBW/bYgZWLI0yqrR2DjgSjQO1X+EOO3r3+e9Fn/kb0BUac/ulDqjLLBvIggm58AW40wdGfiXHWES1evw/CHdFoV4bg+BeFBVvhTAHTcs4kd5c9Pg54pWmwmMHMMgQ/rHBRaw+8cfsbfQLrvzI+ypBNnLF8aCvMSNZubB+c4=
-  edge: true # opt in to dpl v2
+  email: freddie.erg@outlook.com
+  api_key:
+    secure: OV/4ISo+i9Nid5fd7e/Ev0bO6GvWCMj5US/V/Qu5R27OVzW7OrO8ANxYzQLXBW8bjUPkxu0Exp0IFaOm2InU8aqrJpiBVyrGNdXCDw3iTsMSKZp6NtjvSdrWSI+OjfVS9OulDUyKH8u7uMZ8B3dKKm1ZXyrwSj4KLUAB7fODhFvqs45l1g/WO2eSXrnldtHEGPM0RelhaB7zi6plkA8e81HBr3CQFuV6PjBtSECBNQb+mAFMBrFTe7A4N+gwPD7wPiJbjWLarkv1xO2gF79ScIcDE67p+gviBLGm6ehwx6Zl6Csovg0cNmcrnNmg2YUZFD/zet49nCR0E1DcXBXVTMEygwPu9XFqyP4Qzk1WGVn5BIHS43Kt7WxoqCH6hssifiIr2rtgZjazdXVPwc+NoM345xTrQdOXdKaWcP2JlABhQ9D+qUSAr0ROuntQINZV8piW6o2B1E5oukwpt5aIOHIeM4pg5CI2Kol96bqyUc21GHe/AYQbFbHh6/JQlOw4liB+abvvsSW3ozlytKElXDy6hyV0rB1y+BHQJIi9RrQlvL9Oq5E0I8K3BpuLNNY60NYfnKZvqUlnRKBSzsRalegc/qzMVWz5QvW8cJe8vp18Ctio4BddSREtsdS+umNY5MGybV6T0FZ5Qsk+lkFfIdK6qMeNtDpgQDhr+P/xSsc=
+  on:
+    repo: freddieerg/zoopla-js
+  skip_cleanup: 'true'
