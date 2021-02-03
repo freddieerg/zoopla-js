@@ -16,7 +16,7 @@
   <h3 align="center">zoopla-js</h3>
   
   <p align="center">
-  <a href="https://travis-ci.com/freddieerg/zoopla-js.svg?branch=master">
+  <a href="https://travis-ci.com/github/freddieerg/zoopla-js">
     <img src="https://travis-ci.com/freddieerg/zoopla-js.svg?branch=master">
   </a>
  
