@@ -40,7 +40,7 @@ export interface PriceChange {
     direction?: string;
     date?: string;
     percent?: string;
-    price?: number;
+    price?: number | string;
 }
 
 export interface PriceChangeSummary {

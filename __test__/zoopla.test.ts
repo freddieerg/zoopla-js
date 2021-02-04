@@ -291,7 +291,12 @@ describe('property-listings tests', () => {
 
             r.listing.forEach((listing) => {
                 if (listing.price_change) {
-                    currentPrice = listing.price_change[listing.price_change.length - 1].price;
+                    const lastChange = listing.price_change[listing.price_change.length - 1].price;
+                    if (typeof lastChange === 'string') {
+                        currentPrice = parseInt(lastChange);
+                    } else {
+                        currentPrice = lastChange;
+                    }
                     expect(currentPrice).toBeLessThanOrEqual(previousPrice);
                     previousPrice = currentPrice;
                 }
@@ -310,7 +315,12 @@ describe('property-listings tests', () => {
 
             r.listing.forEach((listing) => {
                 if (listing.price_change) {
-                    currentPrice = listing.price_change[listing.price_change.length - 1].price;
+                    const lastChange = listing.price_change[listing.price_change.length - 1].price;
+                    if (typeof lastChange === 'string') {
+                        currentPrice = parseInt(lastChange);
+                    } else {
+                        currentPrice = lastChange;
+                    }
                     expect(currentPrice).toBeGreaterThanOrEqual(previousPrice);
                     previousPrice = currentPrice;
                 }
