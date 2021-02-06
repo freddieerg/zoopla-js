@@ -99,7 +99,7 @@ export interface PropertyListing {
     county?: string;
     price?: number;
     is_premium_listing?: boolean;
-    listing_id?: number;
+    listing_id: number;
     bullet?: Array<any>;
     image_caption?: string;
     image_80_60_url?: string;

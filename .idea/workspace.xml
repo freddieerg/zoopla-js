@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9c6a5eb0-0274-4cac-8ee0-55a02cc0f697" name="Default Changelist" comment="Removed Travis deploy">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="9c6a5eb0-0274-4cac-8ee0-55a02cc0f697" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/types.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +50,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Jest.Tests">
+  <component name="RunManager" selected="Jest.property-listings tests.order_by.price: desc">
     <configuration name="Tests" type="JavaScriptTestRunnerJest">
       <config-file value="$PROJECT_DIR$/jestconfig.json" />
       <node-interpreter value="project" />
@@ -115,6 +114,22 @@
       </test-names>
       <method v="2" />
     </configuration>
+    <configuration name="property-listings tests.order_by.price: desc" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <config-file value="$PROJECT_DIR$/jestconfig.json" />
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/__test__/zoopla.test.ts" />
+      <test-names>
+        <test-name value="property-listings tests" />
+        <test-name value="order_by" />
+        <test-name value="price: desc" />
+      </test-names>
+      <method v="2" />
+    </configuration>
     <configuration name="test zoopla_estimates endpoint" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <config-file value="$PROJECT_DIR$/jestconfig.json" />
       <node-interpreter value="project" />
@@ -129,21 +144,6 @@
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="test zoopla_estimates endpoint.zoopla estimate" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <config-file value="$PROJECT_DIR$/jestconfig.json" />
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/__test__/zoopla.test.ts" />
-      <test-names>
-        <test-name value="test zoopla_estimates endpoint" />
-        <test-name value="zoopla estimate" />
-      </test-names>
-      <method v="2" />
-    </configuration>
     <configuration name="potential.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="dist/src/potential.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
@@ -153,16 +153,16 @@
       <item itemvalue="Jest.endpoint tests.propertyListings" />
       <item itemvalue="Jest.endpoint tests.zedIndex" />
       <item itemvalue="Jest.test zoopla_estimates endpoint" />
-      <item itemvalue="Jest.test zoopla_estimates endpoint.zoopla estimate" />
+      <item itemvalue="Jest.property-listings tests.order_by.price: desc" />
       <item itemvalue="Node.js.potential.js" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Jest.property-listings tests.order_by.price: desc" />
         <item itemvalue="Jest.endpoint tests.propertyListings" />
         <item itemvalue="Jest.endpoint tests" />
         <item itemvalue="Jest.endpoint tests.zedIndex" />
         <item itemvalue="Jest.test zoopla_estimates endpoint" />
-        <item itemvalue="Jest.test zoopla_estimates endpoint.zoopla estimate" />
       </list>
     </recent_temporary>
   </component>
@@ -186,7 +186,13 @@
       <workItem from="1607988056015" duration="883000" />
       <workItem from="1607989011936" duration="3940000" />
       <workItem from="1607994007676" duration="6203000" />
-      <workItem from="1608032407388" duration="1765000" />
+      <workItem from="1608032407388" duration="3451000" />
+      <workItem from="1609110964884" duration="307000" />
+      <workItem from="1609198720800" duration="552000" />
+      <workItem from="1609976255738" duration="580000" />
+      <workItem from="1612369899714" duration="3463000" />
+      <workItem from="1612434635619" duration="5792000" />
+      <workItem from="1612624675944" duration="238000" />
     </task>
     <task id="LOCAL-00001" summary="Added tsconfig.json">
       <created>1605698245183</created>
@@ -307,7 +313,35 @@
       <option name="project" value="LOCAL" />
       <updated>1608030762588</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Updated README.md">
+      <created>1608040514261</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1608040514261</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Updated Bridge URL">
+      <created>1612370059269</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1612370059269</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Updated README.md">
+      <created>1612370332990</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1612370332990</updated>
+    </task>
+    <task id="LOCAL-00021" summary="PriceChange interface updated to reflect the possibility that the price may be a string.">
+      <created>1612442336284</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1612442336284</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -333,13 +367,20 @@
     <MESSAGE value="encrypted api token" />
     <MESSAGE value="travis updates" />
     <MESSAGE value="Removed Travis deploy" />
-    <option name="LAST_COMMIT_MESSAGE" value="Removed Travis deploy" />
+    <MESSAGE value="Updated Bridge URL" />
+    <MESSAGE value="Updated README.md" />
+    <MESSAGE value="PriceChange interface updated to reflect the possibility that the price may be a string." />
+    <option name="LAST_COMMIT_MESSAGE" value="PriceChange interface updated to reflect the possibility that the price may be a string." />
   </component>
   <component name="WindowStateProjectService">
     <state x="503" y="296" key="#ESLint" timestamp="1605978866405">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="503" y="296" key="#ESLint/0.0.1280.800@0.0.1280.800" timestamp="1605978866405" />
+    <state x="369" y="242" key="#Notifications" timestamp="1612392157663">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="369" y="242" key="#Notifications/0.0.1280.800@0.0.1280.800" timestamp="1612392157663" />
     <state x="363" y="258" key="#Prettier" timestamp="1605697697130">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
@@ -356,10 +397,10 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="378" y="165" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.800@0.0.1280.800" timestamp="1608026181788" />
-    <state x="221" y="37" width="817" height="697" key="CommitChangelistDialog2" timestamp="1608034514784">
+    <state x="345" y="91" width="817" height="697" key="CommitChangelistDialog2" timestamp="1612442335940">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="221" y="37" width="817" height="697" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1608034514784" />
+    <state x="345" y="91" width="817" height="697" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1612442335940" />
     <state x="0" y="0" key="DiffContextDialog" timestamp="1606217076939">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
@@ -372,26 +413,30 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="449" y="102" key="Github.UntrackedFilesDialog/0.0.1280.800@0.0.1280.800" timestamp="1606650915109" />
-    <state width="1259" height="194" key="GridCell.Tab.0.bottom" timestamp="1607993995898">
-      <screen x="0" y="0" width="1280" height="800" />
+    <state width="1259" height="326" key="GridCell.Tab.0.bottom" timestamp="1612624627387">
+      <screen x="0" y="25" width="1280" height="712" />
     </state>
-    <state width="1259" height="194" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1607993995898" />
+    <state width="1259" height="326" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1612442351443" />
     <state width="1259" height="204" key="GridCell.Tab.0.bottom/0.25.1280.697@0.25.1280.697" timestamp="1607091172270" />
-    <state width="1259" height="194" key="GridCell.Tab.0.center" timestamp="1607993995895">
-      <screen x="0" y="0" width="1280" height="800" />
+    <state width="1259" height="326" key="GridCell.Tab.0.bottom/0.25.1280.712@0.25.1280.712" timestamp="1612624627387" />
+    <state width="1259" height="326" key="GridCell.Tab.0.center" timestamp="1612624627386">
+      <screen x="0" y="25" width="1280" height="712" />
     </state>
-    <state width="1259" height="194" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1607993995895" />
+    <state width="1259" height="326" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1612442351442" />
     <state width="1259" height="204" key="GridCell.Tab.0.center/0.25.1280.697@0.25.1280.697" timestamp="1607091172270" />
-    <state width="1259" height="194" key="GridCell.Tab.0.left" timestamp="1607993995894">
-      <screen x="0" y="0" width="1280" height="800" />
+    <state width="1259" height="326" key="GridCell.Tab.0.center/0.25.1280.712@0.25.1280.712" timestamp="1612624627386" />
+    <state width="1259" height="326" key="GridCell.Tab.0.left" timestamp="1612624627381">
+      <screen x="0" y="25" width="1280" height="712" />
     </state>
-    <state width="1259" height="194" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1607993995894" />
+    <state width="1259" height="326" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1612442351442" />
     <state width="1259" height="204" key="GridCell.Tab.0.left/0.25.1280.697@0.25.1280.697" timestamp="1607091172269" />
-    <state width="1259" height="194" key="GridCell.Tab.0.right" timestamp="1607993995895">
-      <screen x="0" y="0" width="1280" height="800" />
+    <state width="1259" height="326" key="GridCell.Tab.0.left/0.25.1280.712@0.25.1280.712" timestamp="1612624627381" />
+    <state width="1259" height="326" key="GridCell.Tab.0.right" timestamp="1612624627387">
+      <screen x="0" y="25" width="1280" height="712" />
     </state>
-    <state width="1259" height="194" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1607993995895" />
+    <state width="1259" height="326" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1612442351443" />
     <state width="1259" height="204" key="GridCell.Tab.0.right/0.25.1280.697@0.25.1280.697" timestamp="1607091172270" />
+    <state width="1259" height="326" key="GridCell.Tab.0.right/0.25.1280.712@0.25.1280.712" timestamp="1612624627387" />
     <state width="1259" height="264" key="GridCell.Tab.1.bottom" timestamp="1606904649389">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
@@ -449,10 +494,10 @@
     </state>
     <state x="149" y="36" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1606305185711" />
     <state x="149" y="25" key="SettingsEditor/0.25.1280.697@0.25.1280.697" timestamp="1606650702050" />
-    <state x="240" y="137" key="Vcs.Push.Dialog.v2" timestamp="1608034576858">
+    <state x="240" y="137" key="Vcs.Push.Dialog.v2" timestamp="1612442339915">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="240" y="137" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1608034576858" />
+    <state x="240" y="137" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1612442339915" />
     <state x="441" y="336" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606644321776">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
