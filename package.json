@@ -1,6 +1,6 @@
 {
   "name": "@freddieerg/zoopla-js",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "A JS wrapper for the Zoopla API",
   "license": "MIT",
   "types": "dist/index.d.ts",
