@@ -10,7 +10,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/freddieerg/zoopla-js">
-    <img src="https://www.flaticon.com/svg/static/icons/svg/609/609803.svg" alt="Logo" width="auto" height="100">
+    <img src="https://is3-ssl.mzstatic.com/image/thumb/Purple114/v4/dc/1f/20/dc1f20a0-bf58-2405-616b-1adf9ec99152/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/492x0w.png" alt="Logo" width="auto" height="100" style="border-radius: 6px">
   </a>
 
   <h3 align="center">zoopla-js</h3>
