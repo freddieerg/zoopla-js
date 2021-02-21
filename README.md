@@ -21,7 +21,7 @@
   </a>
  
   <p align="center">
-    An unofficial JS wrapper for the Zoopla API 
+    A JS wrapper for the Zoopla API, written in TypeScript.
     <br />
     <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
     <br />
@@ -72,7 +72,7 @@ This project takes publicly available data from Zoopla and makes it available fo
 <!-- GETTING STARTED -->
 ## Getting Started
 
-To start using zoopla-js simply install via the NPM registry.
+See below for details on installing zoopla-js.
 
 ### Installation
 
@@ -93,21 +93,10 @@ Once this is setup you can install using the usual commands:
   yarn add @freddieerg/zoopla-js
   ```
 
-
-
-<!-- USAGE EXAMPLES -->
-## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-
-
 <!-- ROADMAP -->
 ## Roadmap
 
-See the [open issues](https://github.com/github_username/repo_name/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/freddieerg/zoopla-js/issues) for a list of proposed features (and known issues).
 
 
 
@@ -133,8 +122,6 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 <!-- CONTACT -->
 ## Contact
-
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email
 
 Project Link: [https://github.com/freddieerg/zoopla-js](https://github.com/freddieerg/zoopla-js)
 
