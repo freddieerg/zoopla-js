@@ -2,19 +2,19 @@
 import * as Filters from './filters';
 
 export interface PricePerUnitArea {
-    price?: number;
-    units?: string;
+    price: number;
+    units: string;
 }
 
 export interface OtherImage {
-    url?: string;
-    description?: string;
+    url: string;
+    description: string;
 }
 
 export interface FloorArea {
-    max_floor_area?: {
-        value?: number;
-        units?: string;
+    max_floor_area: {
+        value: number;
+        units: string;
     };
     min_floor_area?: {
         value?: number;
@@ -23,122 +23,122 @@ export interface FloorArea {
 }
 
 export interface PropertyImage {
-    original?: string;
-    '480x360'?: string;
-    '354x255'?: string;
-    '645x430'?: string;
-    '80x60'?: string;
-    '768x576'?: string;
-    '150x113'?: string;
-    '1024x768'?: string;
-    caption?: string;
-    '50x38'?: string;
-    '240x180'?: string;
+    original: string;
+    '480x360': string;
+    '354x255': string;
+    '645x430': string;
+    '80x60': string;
+    '768x576': string;
+    '150x113': string;
+    '1024x768': string;
+    caption: string;
+    '50x38': string;
+    '240x180': string;
 }
 
 export interface PriceChange {
-    direction?: string;
-    date?: string;
-    percent?: string;
-    price?: number | string;
+    direction: string;
+    date: string;
+    percent: string;
+    price: number | string;
 }
 
 export interface PriceChangeSummary {
-    direction?: string;
-    percent?: string;
-    last_updated_date?: string;
+    direction: string;
+    percent: string;
+    last_updated_date: string;
 }
 
 export interface BoundingBox {
-    longitude_min?: string;
-    latitude_min?: string;
-    longitude_max?: string;
-    latitude_max?: string;
+    longitude_min: string;
+    latitude_min: string;
+    longitude_max: string;
+    latitude_max: string;
 }
 
 export interface RichListArea {
-    details_url?: string;
-    name?: string;
-    zed_index?: number;
+    details_url: string;
+    name: string;
+    zed_index: number;
 }
 
 export interface PropertyListing {
-    country_code?: string;
-    num_floors?: number;
-    view_count_30day?: number;
-    image_150_113_url?: string;
-    listing_status?: string;
-    num_bedrooms?: number | string;
-    location_is_approximate?: boolean;
-    image_50_38_url?: string;
-    site_plan?: Array<string>;
-    latitude?: number;
-    view_count?: number;
-    furnished_state?: string;
-    agent_address?: string;
-    branch_id?: number;
-    brochure?: Array<string>;
-    category?: string;
-    property_type?: string;
-    images?: Array<PropertyImage>;
-    longitude?: number;
-    floor_area?: Array<FloorArea>;
-    listing_date?: string;
-    thumbnail_url?: string;
-    description?: string;
-    agent_postcode?: string;
-    post_town?: string;
-    details_url?: string;
+    country_code: string;
+    num_floors: number;
+    view_count_30day: number;
+    image_150_113_url: string | null;
+    listing_status: string;
+    num_bedrooms: number | string;
+    location_is_approximate: boolean;
+    image_50_38_url?: string | null;
+    site_plan?: string[];
+    latitude: number;
+    view_count: number;
+    furnished_state: string | null;
+    agent_address: string;
+    branch_id: number;
+    brochure?: string[];
+    category: string;
+    property_type: string;
+    images: PropertyImage[];
+    longitude: number;
+    floor_area: FloorArea[];
+    listing_date: string;
+    thumbnail_url: string;
+    description: string;
+    agent_postcode: string;
+    post_town: string | null;
+    details_url: string;
     price_per_sq_ft?: number;
-    short_description?: string;
-    outcode?: string;
-    other_image?: Array<OtherImage>;
-    image_645_430_url?: string;
+    short_description: string;
+    outcode: string;
+    other_image: OtherImage[];
+    image_645_430_url: string | null;
     price_per_unit_area?: PricePerUnitArea;
-    title?: string;
-    county?: string;
-    price?: number;
-    is_premium_listing?: boolean;
+    title: string;
+    county: string | null;
+    price: number;
+    is_premium_listing: boolean;
     listing_id: number;
-    bullet?: Array<any>;
-    image_caption?: string;
-    image_80_60_url?: string;
-    property_number?: string;
-    status?: string;
-    agent_name?: string;
-    num_recepts?: number;
-    property_badge?: string;
-    country?: string;
-    first_published_date?: string;
-    displayable_address?: string;
+    bullet: string[];
+    image_caption: string;
+    image_80_60_url: string | null;
+    property_number: string;
+    status: string;
+    agent_name: string;
+    num_recepts: number;
+    property_badge: string;
+    country: string;
+    first_published_date: string;
+    displayable_address: string;
     price_modifier?: string;
-    street_name?: string;
-    num_bathrooms?: number;
-    incode?: string;
-    featured_type?: string;
-    agent_logo?: string;
-    price_change?: Array<PriceChange>;
-    agent_phone?: string;
-    image_354_255_url?: string;
-    image_url?: string;
-    last_published_date?: string;
+    street_name: string;
+    num_bathrooms: number | string;
+    incode: string;
+    featured_type: string;
+    agent_logo: string;
+    price_change?: PriceChange[];
+    agent_phone: string;
+    image_354_255_url: string | null;
+    image_url: string;
+    last_published_date: string;
     price_change_summary?: PriceChangeSummary;
     price_per_sq_metres?: number;
-    original_image?: Array<string>;
+    original_image: string[];
 }
 
 export interface PropertyListingsResponse {
-    country?: string;
-    result_count?: number;
+    country: string;
+    result_count: number;
     longitude?: number;
-    area_name?: string;
-    listing: Array<PropertyListing>;
-    street?: string;
-    town?: string;
+    area_name: string;
+    listing: PropertyListing[];
+    street: string;
+    town: string;
     latitude?: number;
-    county?: string;
+    county: string;
     bounding_box?: object;
-    postcode?: string;
+    postcode: string;
 }
 
 export interface PropertyListingsRequest {
