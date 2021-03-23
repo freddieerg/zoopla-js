@@ -83,6 +83,8 @@ export interface PropertyListing {
     images: PropertyImage[];
     longitude: number;
     floor_area: FloorArea[];
+    floor_plan: string[];
+    epc_graph: string[];
     listing_date: string;
     thumbnail_url: string;
     description: string;
