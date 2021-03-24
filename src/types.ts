@@ -101,7 +101,7 @@ export interface PropertyListing {
     county: string | null;
     price: number;
     is_premium_listing: boolean;
-    listing_id: number;
+    listing_id: string;
     bullet: string[];
     image_caption: string;
     image_80_60_url: string | null;
