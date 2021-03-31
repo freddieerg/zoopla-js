@@ -150,13 +150,18 @@ export interface PropertyListingsRequest {
     chain_free?: boolean;
     created_since?: string | 'YYYY-MM-DD HH:MM:SS';
     description_style?: number;
+    filter_by_polygon?: boolean;
     furnished?: Filters.Furnished;
     include_featured_properties?: boolean | number;
     include_rented?: boolean | number;
     include_sold?: boolean | number;
     keywords?: string;
+    lat_max?: number;
+    lat_min?: number;
     listing_id?: number;
     listing_status?: Filters.ListingStatus;
+    lon_max?: number;
+    lon_min?: number;
     maximum_beds?: number;
     maximum_price?: number;
     minimum_beds?: number;
