@@ -183,7 +183,7 @@ describe('property-listings tests', () => {
     });
 
     test('listing_id', async () => {
-        const testListingId = 56967991;
+        const testListingId = 57195600;
         const r = await zoopla.propertyListings({
             listing_id: testListingId,
         });
