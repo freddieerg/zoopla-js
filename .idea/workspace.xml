@@ -19,9 +19,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9c6a5eb0-0274-4cac-8ee0-55a02cc0f697" name="Default Changelist" comment="Updated bridge URL.">
+    <list default="true" id="9c6a5eb0-0274-4cac-8ee0-55a02cc0f697" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/__test__/zoopla.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/__test__/zoopla.test.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zoopla.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/zoopla.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,21 +123,6 @@
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="endpoint tests.zedIndex" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <config-file value="$PROJECT_DIR$/jestconfig.json" />
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/__test__/zoopla.test.ts" />
-      <test-names>
-        <test-name value="endpoint tests" />
-        <test-name value="zedIndex" />
-      </test-names>
-      <method v="2" />
-    </configuration>
     <configuration name="property-listings tests.listing_id" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <config-file value="$PROJECT_DIR$/jestconfig.json" />
       <node-interpreter value="project" />
@@ -146,6 +135,22 @@
       <test-names>
         <test-name value="property-listings tests" />
         <test-name value="listing_id" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="property-listings tests.order_by.latlong boundary overrides area and includes entire uk" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <config-file value="$PROJECT_DIR$/jestconfig.json" />
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/__test__/zoopla.test.ts" />
+      <test-names>
+        <test-name value="property-listings tests" />
+        <test-name value="order_by" />
+        <test-name value="latlong boundary overrides area and includes entire uk" />
       </test-names>
       <method v="2" />
     </configuration>
@@ -172,18 +177,18 @@
       <item itemvalue="Jest.Tests" />
       <item itemvalue="Jest.endpoint tests" />
       <item itemvalue="Jest.endpoint tests.propertyListings" />
-      <item itemvalue="Jest.endpoint tests.zedIndex" />
       <item itemvalue="Jest.property-listings tests.order_by.price: desc" />
-      <item itemvalue="Node.js.potential.js" />
       <item itemvalue="Jest.property-listings tests.listing_id" />
+      <item itemvalue="Jest.property-listings tests.order_by.latlong boundary overrides area and includes entire uk" />
+      <item itemvalue="Node.js.potential.js" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Jest.property-listings tests.listing_id" />
+        <item itemvalue="Jest.property-listings tests.order_by.latlong boundary overrides area and includes entire uk" />
         <item itemvalue="Jest.property-listings tests.order_by.price: desc" />
         <item itemvalue="Jest.endpoint tests.propertyListings" />
         <item itemvalue="Jest.endpoint tests" />
-        <item itemvalue="Jest.endpoint tests.zedIndex" />
       </list>
     </recent_temporary>
   </component>
@@ -222,7 +227,10 @@
       <workItem from="1614940069017" duration="4246000" />
       <workItem from="1615237614825" duration="539000" />
       <workItem from="1615331203261" duration="70000" />
-      <workItem from="1616501838133" duration="7211000" />
+      <workItem from="1616501838133" duration="9953000" />
+      <workItem from="1617272707299" duration="9000" />
+      <workItem from="1617712584169" duration="426000" />
+      <workItem from="1617714235151" duration="439000" />
     </task>
     <task id="LOCAL-00001" summary="Added tsconfig.json">
       <created>1605698245183</created>
@@ -427,7 +435,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617192426771</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Fixed listing_id test">
+      <created>1617192912746</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1617192912746</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -449,7 +464,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="Initial implementation of API with ability to fetch from Property Listings endpoint.&#10;&#10;Added some filters &amp; types but more to be added.&#10;Added some basic tests, need to test all filters &amp; types." />
     <MESSAGE value="Added more types &amp; filters.&#10;Added .travis.yml" />
     <MESSAGE value="Updated jestconfig.json to ignore dist instead of build." />
     <MESSAGE value="Completed propertyListings() endpoint." />
@@ -474,7 +488,8 @@
     <MESSAGE value="Updated some members of property listing interface as they can possibly be undefined." />
     <MESSAGE value="PropertyListingInterface: listing_id has been corrected from number to string." />
     <MESSAGE value="Added ability to search listings with lat long filter &amp; polygon filter." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added ability to search listings with lat long filter &amp; polygon filter." />
+    <MESSAGE value="Fixed listing_id test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed listing_id test" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/zoopla_js$Tests.info" NAME="Tests Coverage Results" MODIFIED="1606752646051" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="JestJavaScriptTestRunnerCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />

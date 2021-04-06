@@ -186,6 +186,7 @@ describe('property-listings tests', () => {
         const testListingId = 57195600;
         const r = await zoopla.propertyListings({
             listing_id: testListingId,
+            include_sold: true,
         });
 
         expect(r.result_count).toBe(1);

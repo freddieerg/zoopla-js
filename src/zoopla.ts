@@ -1,5 +1,8 @@
 import axios, { AxiosRequestConfig } from 'axios';
+import axiosRetry from 'axios-retry';
 import * as types from './types';
+
+axiosRetry(axios, { retries: 5 });
 
 class Zoopla {
     private readonly bridgeUrl: string;
