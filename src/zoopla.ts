@@ -8,7 +8,7 @@ class Zoopla {
     private readonly bridgeUrl: string;
 
     constructor() {
-        this.bridgeUrl = 'https://5wi3xv205c.execute-api.eu-west-2.amazonaws.com/';
+        this.bridgeUrl = 'https://p6otn1p763.execute-api.eu-west-2.amazonaws.com/';
     }
 
     /**
