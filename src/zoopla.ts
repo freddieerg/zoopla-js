@@ -7,8 +7,8 @@ axiosRetry(axios, { retries: 5 });
 class Zoopla {
     private readonly bridgeUrl: string;
 
-    constructor() {
-        this.bridgeUrl = 'https://gznpn22y4e.execute-api.eu-west-1.amazonaws.com/';
+    constructor(bridgeUrl?: string) {
+        this.bridgeUrl = bridgeUrl || 'https://gznpn22y4e.execute-api.eu-west-1.amazonaws.com/';
     }
 
     /**
