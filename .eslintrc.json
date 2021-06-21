@@ -12,6 +12,7 @@
     },
     "plugins": ["@typescript-eslint", "jest"],
     "rules": {
+        "camelcase": "off",
         "class-methods-use-this": "off",
         "radix": "off",
         "import/extensions": [

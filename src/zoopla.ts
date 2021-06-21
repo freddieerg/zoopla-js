@@ -4,11 +4,20 @@ import * as types from './types';
 
 axiosRetry(axios, { retries: 5 });
 
-class Zoopla {
-    private readonly bridgeUrl: string;
+interface TokenData {
+    api_hash: string;
+    api_key: string;
+    timestamp: number;
+}
 
-    constructor(bridgeUrl?: string) {
-        this.bridgeUrl = bridgeUrl || 'https://gznpn22y4e.execute-api.eu-west-1.amazonaws.com/';
+class Zoopla {
+    private readonly authServer: string;
+
+    private readonly baseUrl: string;
+
+    constructor() {
+        this.authServer = 'https://m0zls7tlr7.execute-api.eu-west-1.amazonaws.com/';
+        this.baseUrl = 'https://api-native-ios.zoopla.co.uk/api/v2/';
     }
 
     /**
@@ -32,18 +41,53 @@ class Zoopla {
     }
 
     /**
+     * Sorts all params alphabetically by key.
+     * @param params
+     * @private
+     */
+    private sortParams(params: object): object {
+        const ordered: object = {};
+        Object.keys(params)
+            .sort()
+            .forEach((key) => {
+                ordered[key] = params[key];
+            });
+
+        return ordered;
+    }
+
+    /**
+     * Requests the authentication token from the auth server.
+     * @param params
+     * @private
+     */
+    private async getAuthToken(params): Promise<TokenData> {
+        const request: AxiosRequestConfig = {
+            url: 'token',
+            method: 'GET',
+            baseURL: this.authServer,
+            params,
+        };
+
+        return (await axios.request(request)).data;
+    }
+
+    /**
      * Builds and then sends the request to the server.
      * @param endpoint
      * @param params
      * @private
      */
     private async makeRequest(endpoint, params) {
-        const finalParams = Zoopla.booleanConverter(params);
+        const convertedParams = Zoopla.booleanConverter(params);
+        const tokenData = await this.getAuthToken(convertedParams);
+        const sortedParams = this.sortParams({ ...convertedParams, ...{ api_key: tokenData.api_key } });
+        const finalParams = { ...sortedParams, ...{ timestamp: tokenData.timestamp, api_hash: tokenData.api_hash } };
 
         const request: AxiosRequestConfig = {
             url: `${endpoint}.js`,
             method: 'GET',
-            baseURL: this.bridgeUrl,
+            baseURL: this.baseUrl,
             params: finalParams,
         };
 
