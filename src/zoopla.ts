@@ -16,7 +16,7 @@ class Zoopla {
     private readonly baseUrl: string;
 
     constructor() {
-        this.authServer = 'https://m0zls7tlr7.execute-api.eu-west-1.amazonaws.com/';
+        this.authServer = 'https://jbx0y521yc.execute-api.eu-west-1.amazonaws.com/';
         this.baseUrl = 'https://api-native-ios.zoopla.co.uk/api/v2/';
     }
 
