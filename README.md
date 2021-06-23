@@ -4,27 +4,19 @@
 zoopla-js is a node wrapper for Zoopla's public API. It is written in TypeScript.
 
 ## Installation
-
-This package is hosted on GitHub not NPM. To install it you will need to add a scoped registry to your package manager.
-
-Registry URL
-
+npm
 ```bash
-https://npm.pkg.github.com
+npm install zoopla-js
 ```
-
-Then install with ether npm or Yarn
+yarn
 ```bash
-npm install @freddieerg/zoopla-js
-```
-```bash
-yarn add @freddieerg/zoopla-js
+yarn add zoopla-js
 ```
 
 ## Quick Start
 
 ```python
-import Zoopla from '@freddieerg/zoopla-js';
+import Zoopla from 'zoopla-js';
 
 const zoopla = new Zoopla();
 
