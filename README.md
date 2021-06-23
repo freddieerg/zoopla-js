@@ -21,7 +21,7 @@ import Zoopla from 'zoopla-js';
 const zoopla = new Zoopla();
 
 async function getSomeListings() {
-  const r = zoopla.propertyListings({area: 'England'});
+  const r = await zoopla.propertyListings({area: 'England'});
   console.log(r.listing);
 }
 ```
